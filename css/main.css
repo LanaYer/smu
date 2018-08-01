@@ -264,6 +264,16 @@ h5 {
 	color: #343434;
 }
 
+.header-contact__info {
+	display: inline-block;
+	padding: 2px 7px;
+	background-color: #f0f0f0;
+	color: #343434;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
 .header-request {
 	display: inline-block;
 	float: left;
@@ -341,6 +351,9 @@ h5 {
 	height: 650px;
 	overflow: hidden;
 	border-bottom: 4px solid #ffa820;
+	display: inline-block;
+	float: left;
+	width: 100%;
 }
 
 .index-main-top {
@@ -807,7 +820,8 @@ h5 {
 	padding: 15px;
 	background-image: linear-gradient(135deg, #5fbc4c, #b2fc49);
 	position: relative;
-	height: 520px;
+	height: auto;
+	padding-bottom: 30px;
 }
 
 .consultation-block__inner img {
