@@ -1,0 +1,130 @@
+@font-face
+    font-family: 'Gotham Pro'
+    src: url('../fonts/GothamPro/GothamPro.woff')
+
+@font-face
+    font-family: 'Gotham Pro Bold'
+    src: url('../fonts/GothamPro/GothamPro-Bold.woff')
+
+body
+    background: $ac3
+.main
+    display: inline-block
+    width: 100%
+    float: left
+    background: $ac3
+    font-family: 'Gotham Pro'
+    position: relative
+    padding-bottom: 70px
+    &__bg
+        position: absolute
+        top: 0
+        left: 0
+        right: 0
+        height: 200px
+        background: $ac1
+.main__breadcrumbs
+    width: 100%
+    display: inline-block
+    color: #fff
+    padding-top: 30px
+    ul
+        margin: 0
+        padding: 0
+        li
+            display: inline-block
+h1
+    font-size: 32px
+    font-family: 'Gotham Pro Bold'
+    line-height: 1.25
+    letter-spacing: normal
+    text-align: left
+    color: #ffffff
+    margin-top: 30px
+    margin-bottom: 30px
+h2
+    font-size: 26px
+    font-family: 'Gotham Pro Bold'
+    line-height: 1.25
+    letter-spacing: normal
+    text-align: left
+    color: $ac2
+h5
+    font-size: 16px
+    font-family: 'Gotham Pro Bold'
+    line-height: 1.25
+    letter-spacing: normal
+    text-align: left
+    color: #383838
+
+.float-right
+    float: right
+.float-left
+    float: left
+
+.button_green
+    height: 50px
+    border-radius: 25px
+    color: #fff
+    border: none
+    background-color: $ac1
+    &:hover
+        background-color: $ac6
+        transition: 2s
+    &:active, &:focus
+        background-color: $ac7
+        transition: 2s
+.button_white
+    height: 50px
+    border-radius: 25px
+    color: $ac1
+    background-color: #fff
+    border: 1px solid $ac1
+    transition: 2s
+    &:hover
+        background-color: $ac1
+        color: #fff
+        transition: 2s
+    &:active, &:focus
+        background-color: $ac1
+        color: #fff
+        transition: 2s
+.button_gray
+    height: 50px
+    border-radius: 25px
+    font-size: 18px
+    color: #fff
+    background-color: #000
+    border: none
+    transition: 2s
+    &:hover
+        background-color: $ac2
+        color: #fff
+        transition: 2s
+    &:active, &:focus
+        background-color: $ac2
+        color: #fff
+        transition: 2s
+.button_banner
+    height: 50px
+    border-radius: 25px
+    color: #fff
+    border: none
+    font-size: 18px
+    font-family: 'Gotham Pro Bold'
+    width: 250px
+    text-align: center
+    background-color: #292929
+    margin-top: 15px
+    transition: 2s
+    img
+        width: 32px
+        margin-left: 20px
+    &:hover
+        background-color: #404549
+        transition: 2s
+    &:active, &:focus
+        background-color: #404549
+        transition: 2s
+.margin-top-10px
+    margin-top: 30px

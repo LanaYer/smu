@@ -1,0 +1,95 @@
+.projects-block
+    display: inline-block
+    float: left
+    width: 100%
+    &__item
+        display: inline-block
+        float: left
+        width: 100%
+        background-color: #fff
+        box-shadow: 0px 10px 30px 0 rgba(0, 0, 0, 0.1)
+        margin-top: 25px
+        .right
+            float: right
+        &_img
+            display: inline-block
+            float: left
+            width: 100%
+            height: 250px
+            overflow: hidden
+            img
+                height: 100%
+                width: auto
+        &_name, &_price
+            display: inline-block
+            float: left
+            width: 100%
+            height: 50px
+            padding: 15px
+        &_name
+            color: #383838
+            font-size: 16px
+            font-family: 'Gotham Pro Bold'
+        &_price
+            color: #383838
+            background-color: #fafafa
+            padding-top: 7px
+            .left
+                font-size: 13px
+                font-family: 'Gotham Pro Bold'
+            .price
+                font-size: 22px
+            .right
+                color: #757575
+                font-size: 14px
+                padding-top: 8px
+        &:hover
+            animation: project-animate
+            animation-duration: 1s
+
+    &__banner
+        display: inline-block
+        float: left
+        width: 100%
+        height: 350px
+        margin-top: 25px
+        padding: 15px 50px
+        font-size: 16px
+    &__banner-1
+        background: url(../img/banner-1.jpg) center no-repeat
+        color: #fff
+        h2
+            color: #fff
+    &__banner-2
+        background: url(../img/banner-2.jpg) center no-repeat
+    &__video
+        height: 350px
+        position: relative
+        margin-top: 25px
+        &_link
+            position: absolute
+            bottom: 0
+            left: 0
+            right: 0
+            height: 130px
+            background: linear-gradient(to right, #5fbc4c, #b2fc49)
+            padding: 13px 25px
+            h5
+                color: #fff
+            .left, .right
+                display: inline-block
+                width: 50%
+                float: left
+                height: 100px
+            .left img
+              width: 32px
+            .right img
+                width: auto
+                float: right
+                height: 100%
+                overflow: hidden
+@keyframes project-animate
+  0%
+      margin-top: 7px
+  50%
+    margin-top: 15px

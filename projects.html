@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+
+	<title>Все проекты</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/slick-theme.css">
+	<link rel="stylesheet" href="css/main.css">
+
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/jquery.ui-slider.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/slick.min.js"></script>
+
+</head>
+
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="header-logo">
+				<a href="index.html">
+					<img src="img/black-logo.svg">
+					<p>строительная компания</p>
+				</a>
+			</div>
+			<div class="header-menu">
+				<ul>
+					<li><a href="projects.html">Проекты</a></li>
+					<li><a href="">Услуги</a></li>
+					<li><a href="">Галерея</a></li>
+					<li><a href="">Компания</a></li>
+					<li><a href="">Контакты</a></li>
+				</ul>
+			</div>
+			<div class="header-contact">
+				<p>+7 (499) 343-63-98</p>
+				<p>snab@smu-199.ru</p>
+			</div>
+			<div class="header-request">
+				<button class="button_green header-request__button">Заказать звонок</button>
+			</div>
+		</div>
+	</header>
+
+	<section class="main">
+		<div class="main__bg"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="main__breadcrumbs">
+						<ul>
+							<li>Главная</li>
+							<li>-</li>
+							<li>Проекты</li>
+						</ul>
+					</div>
+					<h1>Проекты</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="filter-block">
+						<div class="col-md-3">
+							<h5>Цена, млн.руб</h5>
+
+							<form action="#" method="post">
+								<div class="sliderCont">
+									<span class="min">3</span>
+									<span class="max">13</span>
+									<div id="slider"></div>
+								</div>
+								<div class="formCost">
+									<span><label for="minCost">от</label> <input type="text" id="minCost" value="0"/></span>
+									<span><label for="maxCost">до</label> <input type="text" id="maxCost" value="5000"/></span>
+								</div>
+							</form>
+
+						</div>
+						<div class="col-md-3">
+							<h5>Общая площадь, м<sup>2</sup></h5>
+
+							<form action="#" method="post">
+								<div class="sliderCont">
+									<span class="min">3</span>
+									<span class="max">13</span>
+									<div id="slider1"></div>
+								</div>
+								<div class="formCost">
+									<span><label for="minCost">от</label> <input type="text" id="minCost1" value="0"/></span>
+									<span><label for="maxCost">до</label> <input type="text" id="maxCost1" value="5000"/></span>
+								</div>
+							</form>
+
+						</div>
+						<div class="col-md-2">
+							<h5>Спальни</h5>
+							<span class="filter-block__rooms active">2</span>
+							<span class="filter-block__rooms">3</span>
+							<span class="filter-block__rooms">4</span>
+							<span class="filter-block__rooms">5</span>
+							<span class="filter-block__rooms">>5</span>
+						</div>
+						<div class="col-md-4">
+							<h5>Комплектация</h5>
+							<span class="filter-block__complect active">навес</span>
+							<span class="filter-block__complect">гараж</span>
+							<span class="filter-block__complect">балкон</span>
+							<span class="filter-block__complect">мансарда</span>
+							<span class="filter-block__complect">терраса</span>
+						</div>
+						<div class="col-md-7 margin-top-10px">
+							<div class="filter-block__download">
+								<span class="filter-block__download_dot"></span>
+								<span class="filter-block__download_dot liter"></span>
+								<span class="filter-block__download_dot lite"></span>
+								<p>Найдено 16 проектов</p>
+							</div>
+							<button class="button_green">Показать</button>
+							<a href="">Очистить</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="projects-block">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="projects-block__item">
+						<a href="project.html">
+							<div class="projects-block__item_img">
+								<img src="img/844aed176a2d87b2cf900c31c578fe92.jpg">
+							</div>
+							<div class="projects-block__item_name">
+								<span class="left">Кирпичный дом К-1</span>
+								<span class="right">204 м<sup>2</sup></span>
+							</div>
+							<div class="projects-block__item_price">
+								<span class="left">От <span class="price">4</span> млн. руб.</span>
+								<span class="right">от 34 300 руб/м<sup>2</sup></span>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="projects-block__item">
+						<a href="#">
+							<div class="projects-block__item_img">
+								<img src="img/844aed176a2d87b2cf900c31c578fe92.jpg">
+							</div>
+							<div class="projects-block__item_name">
+								<span class="left">Кирпичный дом К-1</span>
+								<span class="right">204 м<sup>2</sup></span>
+							</div>
+							<div class="projects-block__item_price">
+								<span class="left">От <span class="price">4</span> млн. руб.</span>
+								<span class="right">от 34 300 руб/м<sup>2</sup></span>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="projects-block__video">
+						<div class="projects-block__video_video">
+							<iframe width="100%" height="200px" src="https://www.youtube.com/embed/cmylCUdW7OA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+						</div>
+						<div class="projects-block__video_link">
+							<a href="#">
+								<div class="left">
+									<h5>Индивидуальное проектирование домов</h5>
+									<img src="img/arrow-white.svg">
+								</div>
+								<div class="right">
+									<img src="img/home-house.png">
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-8">
+					<div class="projects-block__banner projects-block__banner-1">
+						<h2>Типовых проектов немного, но они максимально сбалансированы по цене и качеству</h2>
+						<p>Мы делаем качественно и негонимся за количеством Эти слова совершенно справедливы, однако
+							скалярное произведение искажает бессознательный департамент маркетинга и продаж. Система
+							координат, как следует из вышесказанного, естественно творит сложный двойной интеграл. Комплекс</p>
+						<button class="button_banner">Отправить <img src="img/arrow-white.svg"></button>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="projects-block__item">
+						<a href="#">
+							<div class="projects-block__item_img">
+								<img src="img/844aed176a2d87b2cf900c31c578fe92.jpg">
+							</div>
+							<div class="projects-block__item_name">
+								<span class="left">Кирпичный дом К-1</span>
+								<span class="right">204 м<sup>2</sup></span>
+							</div>
+							<div class="projects-block__item_price">
+								<span class="left">От <span class="price">4</span> млн. руб.</span>
+								<span class="right">от 34 300 руб/м<sup>2</sup></span>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="projects-block__item">
+						<a href="#">
+							<div class="projects-block__item_img">
+								<img src="img/844aed176a2d87b2cf900c31c578fe92.jpg">
+							</div>
+							<div class="projects-block__item_name">
+								<span class="left">Кирпичный дом К-1</span>
+								<span class="right">204 м<sup>2</sup></span>
+							</div>
+							<div class="projects-block__item_price">
+								<span class="left">От <span class="price">4</span> млн. руб.</span>
+								<span class="right">от 34 300 руб/м<sup>2</sup></span>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="projects-block__item">
+						<a href="#">
+							<div class="projects-block__item_img">
+								<img src="img/844aed176a2d87b2cf900c31c578fe92.jpg">
+							</div>
+							<div class="projects-block__item_name">
+								<span class="left">Кирпичный дом К-1</span>
+								<span class="right">204 м<sup>2</sup></span>
+							</div>
+							<div class="projects-block__item_price">
+								<span class="left">От <span class="price">4</span> млн. руб.</span>
+								<span class="right">от 34 300 руб/м<sup>2</sup></span>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="projects-block__item">
+						<a href="#">
+							<div class="projects-block__item_img">
+								<img src="img/844aed176a2d87b2cf900c31c578fe92.jpg">
+							</div>
+							<div class="projects-block__item_name">
+								<span class="left">Кирпичный дом К-1</span>
+								<span class="right">204 м<sup>2</sup></span>
+							</div>
+							<div class="projects-block__item_price">
+								<span class="left">От <span class="price">4</span> млн. руб.</span>
+								<span class="right">от 34 300 руб/м<sup>2</sup></span>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="projects-block__item">
+						<a href="#">
+							<div class="projects-block__item_img">
+								<img src="img/844aed176a2d87b2cf900c31c578fe92.jpg">
+							</div>
+							<div class="projects-block__item_name">
+								<span class="left">Кирпичный дом К-1</span>
+								<span class="right">204 м<sup>2</sup></span>
+							</div>
+							<div class="projects-block__item_price">
+								<span class="left">От <span class="price">4</span> млн. руб.</span>
+								<span class="right">от 34 300 руб/м<sup>2</sup></span>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-8">
+					<div class="projects-block__banner projects-block__banner-2">
+						<h2>Что то не нашли?</h2>
+						<p>Мы делаем качественно и негонимся за<br> количеством Эти слова совершенно справедливы,<br>
+							однако скалярное произведение искажает<br> бессознательный департамент маркетинга и<br> продаж.
+							Система координат, как следует из </p>
+						<button class="button_banner">Отправить <img src="img/arrow-white.svg"></button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="building-block">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<h2>Строительство домов из кирпича</h2>
+					<p class="building-block__text">Мы строим дома из кирпича — наиболее качественного и популярного материала. Его основное
+						преимущество — долговечность. Всем известно, как много лет служат кирпичные дома, как хорошо
+						защищают от непогоды и положительно влияют на микроклимат.</p>
+					<div class="building-block__left-item">
+						<img src="img/2a1ae2ce400029dcabd885e6892d6272.png" />
+						<h5>Материалы без наценок</h5>
+						<p>напрямую от поставщиков</p>
+					</div>
+					<div class="building-block__left-item">
+						<img src="img/e569a66c5efb5842c6cd0a168ffe392a.png" />
+						<h5>Поэтапная оплата</h5>
+						<p>до 10 платежей</p>
+					</div>
+					<div class="building-block__left-item">
+						<img src="img/039b5278320578c68d10cb242fb6821a.png" />
+						<h5>5 лет гарантии </h5>
+						<p>на все работы</p>
+					</div>
+					<div class="building-block__left-item">
+						<img src="img/60c91dff1832452096be2dd67b394472.png" />
+						<h5>Дом за 6 месяцев</h5>
+						<p>срок с момента подписания договора</p>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<h2>Преимущества кирпичных домов</h2>
+					<div class="building-block__right-item">
+						<img src="img/8eff2494a7734f13528962a1b8d9677c.png" />
+						<h5>Теплоемкость</h5>
+						<p>Зимой вам будет тепло, а летом прохладно.</p>
+					</div>
+					<div class="building-block__right-item">
+						<img src="img/b93c05ac491b4ae4d671c0208a83da39.png" />
+						<h5>Универсальность</h5>
+						<p>Архитектурная композиция может быть любой.</p>
+					</div>
+					<div class="building-block__right-item">
+						<img src="img/848d68c47b0d071cf66c3aa60fedd5c3.png" />
+						<h5>Долговечность</h5>
+						<p>Дом прослужит несколько поколений.</p>
+					</div>
+					<div class="building-block__right-item">
+						<img src="img/1a26af1272f074a53399535730a18927.png" />
+						<h5>Шумоизоляция</h5>
+						<p>Материал скрадывает звуки, поэтому в кирпичных домах тихо.</p>
+					</div>
+					<div class="building-block__right-item">
+						<img src="img/03602bead52919796a377620f26f556d.png" />
+						<h5>Огнеупорность</h5>
+						<p>Материал стоек к перепадам температур и воздействию огня.</p>
+					</div>
+					<div class="building-block__right-item">
+						<img src="img/77c296a8e9908ca4798708257e7ccb31.png" />
+						<h5>Химическая инертность</h5>
+						<p>Кирпич не выделяет запахов, клеев, смол, частиц. Это экологически чистый материал.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="stage-block">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="stage-block__content">
+						<h2>Этапы строительства и оплаты</h2>
+						<div class="stage-block__content_item">
+							<img src="img/flag.png">
+							<span>1</span>
+							<h5>Строительство фундаментов</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+								bibendum laoreet. Proin gravida</p>
+						</div>
+						<div class="stage-block__content_item">
+							<img src="img/flag.png">
+							<span>2</span>
+							<h5>Кирпичная кладка</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+								bibendum laoreet. Proin gravida</p>
+						</div>
+						<div class="stage-block__content_item">
+							<img src="img/flag.png">
+							<span>3</span>
+							<h5>Кровельные работы</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+								bibendum laoreet. Proin gravida</p>
+						</div>
+						<div class="stage-block__content_item">
+							<img src="img/flag.png">
+							<span>4</span>
+							<h5>Внешняя и внутренняя отделка</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+								bibendum laoreet. Proin gravida</p>
+						</div>
+						<div class="stage-block__content_item no-border">
+							<img src="img/flag.png">
+							<span>5</span>
+							<h5>Устройство коммуникаций</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+								bibendum laoreet. Proin gravida</p>
+						</div>
+						<div class="stage-block__bottom">
+							<div class="stage-block__bottom_item">
+								<span>50%</span>
+								<p>стоимости каждого этапа оплачивается в его начале</p>
+							</div>
+							<div class="stage-block__bottom_item">
+								<span>50%</span>
+								<p>после сдачи <br>этапа работ</p>
+							</div>
+							<div class="stage-block__bottom_item">
+								<img src="img/doc-download.svg" />
+								<a href="#">Скачать пример комплектации дома и строительной сметы</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="capability-block">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12"><h2>Возможности</h2></div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="capability-block__item">
+						<h5>Внесение изменения в типовой проект</h5>
+						<p>Выберите дом в каталоге проектов и решите,что хотите изменить.
+							Проектировщик внесет доработки или подскажет лучшее решение.</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="capability-block__item">
+						<h5>Индивидуальное проектирование или строительство по своему проекту</h5>
+						<p>Индивидуальный проект создается с учетом желаний заказчика. Мы разработаем его на основе вашего
+							эскиза или предложений архитектора.</p>
+						<a href="#">Подробнее</a>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="capability-block__item">
+						<h5>Благоустройство территории</h5>
+						<a href="#">Ландшафтный дизайн</a>
+						<a href="#">Строительство бань</a>
+						<a href="#">Строительство гаражей</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="features-block">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12"><h2>Особенности строительства</h2></div>
+			</div>
+			<div class="row">
+				<div class="col-md-5">
+					<p>
+						Обращайтесь к нам уже в процессе планирования стройки. Специалисты «СМУ-199» рассчитают для вас
+						расходы на строительство дома. Вы можете воспользоваться собственным проектом кирпичного коттеджа
+						эконом-класса или выбрать один из созданных нашей компанией. Подробная калькуляция поможет не только
+						вывести общую стоимость, но и застрахует от непредвиденных затрат в будущем.
+					</p>
+				</div>
+				<div class="col-md-5 col-md-offset-1">
+					<p>
+						Обращайтесь к нам уже в процессе планирования стройки. Специалисты «СМУ-199» рассчитают для вас
+						расходы на строительство дома. Вы можете воспользоваться собственным проектом кирпичного коттеджа
+						эконом-класса или выбрать один из созданных нашей компанией. Подробная калькуляция поможет не только
+						вывести общую стоимость, но и застрахует от непредвиденных затрат в будущем.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="bottom-block">
+		<div class="container">
+			<div class="col-md-6 text-center">
+				<a href="">
+					<span>Смотреть все проекты</span> <img src="img/arrow.svg">
+				</a>
+			</div>
+			<div class="col-md-6 text-center">
+				<a href="">
+					<img src="img/mail.svg"> <span> Есть вопросы? Напишите нам</span>
+				</a>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2 text-center">
+					<img src="img/white-logo.svg">
+				</div>
+				<div class="col-md-8 text-center">
+					<p class="footer-address">Московская область, Истринский район, к.п. Светлогорье, 15-Б</p>
+					<div class="footer__social">
+						<ul>
+							<li><a href=""><i class="fa fa-vk"></i></a></li>
+							<li><a href=""><i class="fa fa-facebook"></i></a></li>
+							<li><a href=""><i class="fa fa-instagram"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<a href="" class="footer-copy-link">Гречка.Digital</a>
+					<p class="footer-copy">разработка сайта</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/common.js"></script>
+
+</body>
+</html>

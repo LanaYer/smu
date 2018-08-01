@@ -1,0 +1,123 @@
+.filter-block
+    display: inline-block
+    float: left
+    width: 100%
+    background-color: #fff
+    padding: 15px 30px
+    &__rooms, &__complect
+        width: 40px
+        height: 40px
+        display: inline-block
+        margin-top: 15px
+        margin-right: 5px
+        border-radius: 20px
+        font-size: 14px
+        color: #757575
+        text-align: center
+        padding-top: 10px
+        background-color: #e5e5e5
+        cursor: pointer
+    &__rooms.active, &__complect.active
+        background-color: $ac1
+        color: #fff
+    &__complect
+        width: 90px
+    &__download
+        width: 250px
+        display: inline-block
+        color: #757575
+        &_dot
+            width: 12px
+            height: 12px
+            border-radius: 50%
+            display: inline-block
+            background-color: $ac1
+        &_dot.liter
+            background-color: rgba(130, 199, 78, 0.78)
+        &_dot.lite
+            background-color: rgba(130, 199, 78, 0.55)
+        p
+            display: inline-block
+            margin-left: 15px
+    .button_green
+        width: 200px
+        margin-right: 25px
+    a
+        color: $ac1
+
+    .formCost
+        float: left
+        margin-bottom: 10px
+        margin-top: 15px
+    .formCost span
+        float: left
+        margin-bottom: 10px
+        border: 1px solid #E5E5E5
+        margin-right: 10px
+        padding-left: 5px
+    .formCost span:active,
+    .formCost span:focus,
+    .formCost span:hover
+        border: 1px solid $ac1
+    .formCost label
+        float: left
+        font-size: 12px
+        color: #757575
+        position: relative
+        margin-top: 7px
+    .formCost input
+        float: left
+        text-align: right
+        font-size: 16px
+        font-weight: bold
+        width: 55px
+        background: none
+        border: none
+        margin-right: 10px
+        height: 30px
+    .sliderCont
+        width: 100%
+        height: 50px
+        float: left
+        margin-top: 20px
+        .max
+            float: right
+            margin-right: -7px
+            padding-bottom: 7px
+            display: inline-block
+        .min
+            margin-left: -2px
+            height: 30px
+    #slider, #slider1
+        width: 100%
+        height: 6px
+        background-color: #e5e5e5
+        margin-top: 10px
+    .ui-slider
+        position: relative
+    .ui-slider .ui-slider-handle
+        position: absolute
+        z-index: 2
+        width: 15px
+        height: 15px
+        background: $ac1
+        border: 3px solid #fff
+        cursor: pointer
+        box-shadow: 0px 1px 0px 1px rgba(0, 0, 0, 0.1)
+        -moz-border-radius: 50%
+        -webkit-border-radius: 50%
+        border-radius: 50%
+    .ui-slider-horizontal .ui-slider-handle
+        top: -5px
+        margin-left: -6px
+    .ui-slider-horizontal .ui-slider-range
+        top: 0
+        height: 100%
+    .ui-slider-horizontal .ui-slider-range-min
+        left: 0
+    .ui-slider-horizontal .ui-slider-range-max
+        right: 0
+    .ui-widget-content
+        background: #fff
+
+
