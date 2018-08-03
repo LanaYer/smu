@@ -440,6 +440,18 @@ h5 {
 	margin-top: 15px;
 }
 
+@media (max-width: 1200px) {
+	.footer {
+		padding-bottom: 30px;
+		height: 320px;
+	}
+
+	.footer .text-xs-center {
+		text-align: center;
+		margin-top: 20px;
+	}
+}
+
 .main {
 	display: inline-block;
 	width: 100%;
@@ -1540,6 +1552,24 @@ h5 {
 .complectation-block-right-header {
 	font-size: 23px !important;
 	font-family: 'Gotham Pro Bold';
+}
+
+@media (max-width: 1200px) {
+	.complectation-block span {
+		display: none;
+	}
+
+	.complectation-block_image {
+		width: 100%;
+		height: 500px;
+	}
+}
+
+@media (max-width: 576px) {
+	.complectation-block_image {
+		width: 100%;
+		height: 300px;
+	}
 }
 
 .services-block {
