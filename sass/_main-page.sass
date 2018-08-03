@@ -5,91 +5,168 @@
     display: inline-block
     float: left
     width: 100%
-.index-main-top
-    height: 560px
-    width: 100%
-    position: relative
-    background-color: $ac1
-    &__image-bg
-        position: absolute
-        top: 0
-        bottom: 0
-        right: 0
-        width: 80%
-        background-color: #000
-        overflow: hidden
-        img
-            width: 100%
-            height: auto
-            opacity: 0.5
-    h1
-        font-size: 120px
-        margin-top: 50px
-    p
-        font-size: 16px
-        color: white
-        margin-bottom: 30px
-    .index-main-top-p
-        font-size: 30px
-        font-family: 'Gotham Pro Bold'
-    &-button_gray
-        width: 350px
-        img
-            margin-left: 25px
-            width: 40px
+    &__top
+        height: 560px
+        width: 100%
+        position: relative
+        background-color: $ac1
+        &__image-bg
+            position: absolute
+            top: 0
+            bottom: 0
+            right: 0
+            width: 80%
+            background-color: #000
+            overflow: hidden
+            img
+                width: 100%
+                height: auto
+                opacity: 0.5
+        h1
+            font-size: 120px
+            margin-top: 50px
+        p
+            font-size: 16px
+            color: white
+            margin-bottom: 30px
+        .index-main-top-p
+            font-size: 30px
+            font-family: 'Gotham Pro Bold'
+        &__button_gray
+            width: 350px
+            img
+                margin-left: 25px
+                width: 40px
 
-.index-main-items
-    width: 100%
-    display: inline-block
-    float: left
-    background-color: #fff
-    .index-main-item
-        width: 25%
+    &__items
+        width: 100%
         display: inline-block
         float: left
         background-color: #e1e4e8
-        cursor: pointer
-        &-left
-            width: 35%
+        &__item
+            width: 25%
+            display: inline-block
             float: left
-            display: inline-block
-            padding: 20px
-        img
-            width: 100%
-            height: auto
-        &-right
-            width: 65%
-            float: right
-            display: inline-block
-            p
-                font-size: 14px
-                color: #757575
-                display: none
-            .header-p
-                height: auto
-                font-family: 'Gotham Pro Bold'
-                margin-top: 35px
-                margin-bottom: 13px
-                color: #000
+            background-color: #e1e4e8
+            cursor: pointer
+            transition: 1s
+            &-inner
+                background-color: #e1e4e8
+            &__left-block
+                width: 35%
+                float: left
                 display: inline-block
-        &-button
-            width: 100%
-            float: left
-            margin-bottom: 20px
-            margin-top: 20px
-            display: none
-        &__button
-            margin-left: 15px
-            width: 200px
+                padding: 20px
+                img
+                    width: 100%
+                    height: auto
+            &__right-block
+                width: 65%
+                float: right
+                display: inline-block
+                p
+                    font-size: 14px
+                    color: #757575
+                    display: none
+                .header-p
+                    height: auto
+                    font-family: 'Gotham Pro Bold'
+                    margin-top: 35px
+                    margin-bottom: 13px
+                    color: #000
+                    display: inline-block
+            &__button-block
+                width: 100%
+                float: left
+                margin-bottom: 20px
+                margin-top: 20px
+                display: none
+                &__button
+                    margin-left: 15px
+                    width: 200px
+            &:hover
+                background-color: #fff
+                margin-top: -100px
+                transition: 1s
+            &:hover .header-p
+                margin-top: 20px
+            &:hover p
+                display: block
+            &:hover .index-main__items__item__button-block
+                display: inline-block
+            &:hover .index-main__items__item-inner
+                background-color: #fff
         &:hover
             background-color: #fff
-            margin-top: -100px
-            transition: 1s
-        &:hover .header-p
-            margin-top: 20px
-        &:hover p
-            display: block
-        &:hover .index-main-item-button
-            display: inline-block
-        &:hover .index-main-item-inner
-            background-color: #fff
+
+@media (max-width: 1200px)
+    .index-main
+        height: 100vh
+        &__top
+            height: 81vh
+            &__image-bg
+                position: absolute
+                top: 0
+                bottom: 0
+                right: 0
+                width: 80%
+                background-color: #000
+                overflow: hidden
+                img
+                    width: auto
+                    height: 100vh
+                    opacity: 0.5
+            h1
+                font-size: 90px
+                margin-top: 30px
+                margin-bottom: 0px
+            p
+                font-size: 14px
+                color: white
+                margin-bottom: 30px
+            .index-main-top-p
+                font-size: 30px
+                font-family: 'Gotham Pro Bold'
+            &-button_gray
+                width: 350px
+                img
+                    margin-left: 25px
+                    width: 40px
+
+        &__items
+            &__item
+                text-align: center
+                &__left-block
+                    width: 100%
+                    padding: 7px
+                    img
+                        width: auto
+                        height: 50px
+                &__right-block
+                    width: 100%
+                    p
+                        display: none
+                    .header-p
+                        margin-top: 0px
+                        font-size: 13px
+                        display: inline-block!important
+                &__button-block
+                    width: 100%
+                    float: left
+                    margin: 0
+                    display: none
+                    &__button
+                        margin: 0px
+                        width: 130px
+                        font-size: 12px
+                        height: 30px
+                &:hover p
+                    display: none
+
+@media (max-width: 576px)
+    .index-main-top
+        height: 70vh
+        &__image-bg
+            img
+                width: auto
+                height: 100%

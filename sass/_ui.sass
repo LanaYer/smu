@@ -1,38 +1,15 @@
 @font-face
     font-family: 'Gotham Pro'
-    src: url('../fonts/GothamPro/GothamPro.woff')
+    src: url('../fonts/GothamPro/GothamPro.woff'), url('../fonts/GothamPro/GothamPro.eot'), url('../fonts/GothamPro/GothamPro.ttf')
 
 @font-face
     font-family: 'Gotham Pro Bold'
-    src: url('../fonts/GothamPro/GothamPro-Bold.woff')
+    src: url('../fonts/GothamPro/GothamPro-Bold.woff'), url('../fonts/GothamPro/GothamPro-Bold.eot'), url('../fonts/GothamPro/GothamPro-Bold.ttf')
 
 body
     background: $ac3
-.main
-    display: inline-block
-    width: 100%
-    float: left
-    background: $ac3
     font-family: 'Gotham Pro'
-    position: relative
-    padding-bottom: 70px
-    &__bg
-        position: absolute
-        top: 0
-        left: 0
-        right: 0
-        height: 200px
-        background: $ac1
-.main__breadcrumbs
-    width: 100%
-    display: inline-block
-    color: #fff
-    padding-top: 30px
-    ul
-        margin: 0
-        padding: 0
-        li
-            display: inline-block
+
 h1
     font-size: 32px
     font-family: 'Gotham Pro Bold'
@@ -62,7 +39,7 @@ h5
 .float-left
     float: left
 
-.button_green
+.button-green
     height: 50px
     border-radius: 25px
     color: #fff
@@ -74,7 +51,7 @@ h5
     &:active, &:focus
         background-color: $ac7
         transition: 2s
-.button_white
+.button-white
     height: 50px
     border-radius: 25px
     color: $ac1
@@ -89,7 +66,7 @@ h5
         background-color: $ac1
         color: #fff
         transition: 2s
-.button_gray
+.button-gray
     height: 50px
     border-radius: 25px
     font-size: 18px
@@ -105,7 +82,7 @@ h5
         background-color: $ac2
         color: #fff
         transition: 2s
-.button_banner
+.button-banner
     height: 50px
     border-radius: 25px
     color: #fff
