@@ -29,7 +29,7 @@
             font-size: 16px
             color: white
             margin-bottom: 30px
-        .index-main-top-p
+        &__p
             font-size: 30px
             font-family: 'Gotham Pro Bold'
         &__button_gray
@@ -127,7 +127,7 @@
             .index-main-top-p
                 font-size: 30px
                 font-family: 'Gotham Pro Bold'
-            &-button_gray
+            &__button_gray
                 width: 350px
                 img
                     margin-left: 25px
@@ -164,9 +164,48 @@
                     display: none
 
 @media (max-width: 576px)
-    .index-main-top
-        height: 70vh
-        &__image-bg
-            img
-                width: auto
-                height: 100%
+    .index-main
+        height: 83vh
+        &__top
+            height: 70vh
+            &__image-bg
+                img
+                    width: auto
+                    height: 100%
+            h1
+                font-size: 52px
+            p
+                display: none
+            &__p
+                display: inline-block!important
+                font-size: 18px!important
+            &__button_gray
+                width: 250px
+                font-size: 14px
+                img
+                    margin-left: 10px
+                    width: 30px
+        &__items
+            height: auto
+            &__item
+                &-inner
+                    padding: 2px
+                &__left-block
+                    width: 100%
+                    padding: 3px
+                    img
+                        width: 100%
+                        height: auto
+                &__right-block
+                    display: none
+                    p
+                        display: none
+                    .header-p
+                        display: none
+                &__button-block
+                    margin-top: 20px
+                    &__button
+                        margin-left: 15px
+                        width: 200px
+                &:hover
+                    margin-top: 0px
