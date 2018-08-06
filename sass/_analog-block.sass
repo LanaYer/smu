@@ -43,3 +43,22 @@
         opacity: 0.5
     &_slider-item:hover .analog-slick_slider-hover
         display: block
+
+@media (max-width: 1200px)
+    .project-slick
+        &_slider-img
+            height: 400px
+
+@media (max-width: 576px)
+    .analog-block
+        &__inner
+            .slick-next
+                right: 15px
+                top: 50%
+                position: absolute
+                z-index: 100
+            .slick-prev
+                left: 15px
+                top: 50%
+                position: absolute
+                z-index: 100

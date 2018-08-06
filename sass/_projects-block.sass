@@ -66,14 +66,17 @@
         height: 350px
         position: relative
         margin-top: 25px
-        &_link
+        &__video
+            height: 60%
+        &__link
             position: absolute
             bottom: 0
             left: 0
             right: 0
-            height: 130px
             background: linear-gradient(to right, #5fbc4c, #b2fc49)
             padding: 13px 25px
+            height: 30%
+            min-height: 130px
             h5
                 color: #fff
             .left, .right
@@ -100,4 +103,8 @@
         height: auto
         background-size: cover
     .projects-block__video
-        height: auto
+        height: 400px
+        &__video
+            height: 60%
+        &__link
+            height: 30%
