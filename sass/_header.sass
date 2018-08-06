@@ -83,6 +83,29 @@
         padding-top: 15px
         &__button
             width: 200px
+    &__top
+        display: none
+        width: 100%
+        float: left
+        font-family: 'Gotham Pro Bold'
+        font-size: 12px
+        .phone
+            width: 50%
+            float: left
+            display: inline-block
+            height: 40px
+            text-align: center
+            padding-top: 10px
+            background-color: #f6f6f6
+        .request
+            width: 50%
+            float: right
+            display: inline-block
+            background-color: $ac1
+            color: #fff
+            height: 40px
+            text-align: center
+            padding-top: 10px
 
 @media (max-width: 1200px)
     .header
@@ -114,7 +137,7 @@
 
 @media (max-width: 576px)
     .header
-        height: 60px
+        height: 100px
         &__logo
             width: 70%
             padding-top: 10px
@@ -123,7 +146,7 @@
         &__menu
             display: none
             position: absolute
-            top: 60px
+            top: 100px
             left: 0px
             width: 100%
             z-index: 1000
@@ -147,3 +170,5 @@
                     margin: 4px 0
         &__contact, &__request
             display: none
+        &__top
+            display: inline-block
