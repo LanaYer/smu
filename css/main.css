@@ -567,6 +567,7 @@ h5 {
 .index-main__top h1 {
 	font-size: 120px;
 	margin-top: 50px;
+	text-transform: uppercase;
 }
 
 .index-main__top p {
@@ -576,7 +577,7 @@ h5 {
 }
 
 .index-main__top__p {
-	font-size: 30px;
+	font-size: 30px !important;
 	font-family: 'Gotham Pro Bold';
 }
 
