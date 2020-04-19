@@ -102,11 +102,11 @@ $(document).ready(function(){
         $(".header__menu").toggle();
     });
 
-    $(".main__contact-us__name").click(function(){
-        $(".main__contact-us").addClass('open');
+    $(".contact-us__name").click(function(){
+        $(".contact-us").addClass('open');
     });
-    $(".main__contact-us__close").click(function(){
-        $(".main__contact-us").removeClass('open');
+    $(".contact-us__close").click(function(){
+        $(".contact-us").removeClass('open');
     });
 });
 
